@@ -1,5 +1,6 @@
 import sys
 
+
 def string_from_args():
     x = 1
     string = ''
@@ -10,7 +11,14 @@ def string_from_args():
             string += ' '
     return string
 
+
 def rev_alpha():
     return (string_from_args().swapcase())[::-1]
 
-print rev_alpha()
+
+def main():
+    print(rev_alpha())
+
+
+if __name__ == '__main__':
+    main()
